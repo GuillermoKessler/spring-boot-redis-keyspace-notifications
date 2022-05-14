@@ -42,8 +42,7 @@ spring.redis.listen-pattern=__keyevent@0__:set
     ```sh
     127.0.0.1:6379> set user "John Doe"
     ```
-* Una vez realizada cualquiera de las dos opciones nos va a llegar un evento en el **MessageListener** de que tenemos  
-  configurado en el proyecto. Ejemplo:
+* Una vez realizada cualquiera de las dos opciones nos va a llegar un evento en el **MessageListener** que tenemos configurado en el proyecto. Ejemplo:
   ```
   INFO i.k.r.config.RedisMessageListener  : Event key: user
   INFO i.k.r.config.RedisMessageListener  : Event pattern config: __keyevent@0__:set
