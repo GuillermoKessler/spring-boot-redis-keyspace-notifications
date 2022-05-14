@@ -45,9 +45,9 @@ spring.redis.listen-pattern=__keyevent@0__:set
 * Una vez realizada cualquiera de las dos opciones nos va a llegar un evento en el **MessageListener** de que tenemos  
   configurado en el proyecto. Ejemplo:
   ```
-  INFO 152954 --- [enerContainer-2] i.k.r.config.RedisMessageListener  : Event key: user
-  INFO 152954 --- [enerContainer-2] i.k.r.config.RedisMessageListener  : Event pattern config: __keyevent@0__:set
-  INFO 152954 --- [enerContainer-2] i.k.r.config.RedisMessageListener  : Event channel: __keyevent@0__:set
+  INFO i.k.r.config.RedisMessageListener  : Event key: user
+  INFO i.k.r.config.RedisMessageListener  : Event pattern config: __keyevent@0__:set
+  INFO i.k.r.config.RedisMessageListener  : Event channel: __keyevent@0__:set
   ```
 
 
